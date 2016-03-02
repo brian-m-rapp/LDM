@@ -229,9 +229,9 @@
 #       include "ldmProductQueue.h"
 #endif
 
-#include "../fileIngest/stdclib.h"
-#include "../fileIngest/mlogger.h"
-#include "../fileIngest/goesr_lib.h"
+#include "stdclib.h"
+#include "mlogger.h"
+#include "goesr_lib.h"
 
 #define DIRECTORY_CREATE_PERMS		(S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH)
 #define DIRECTORY_FULL_OPEN_PERMS	(S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IWGRP | S_IXGRP | S_IROTH | S_IWOTH | S_IXOTH)
